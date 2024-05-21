@@ -1,0 +1,123 @@
+.amout {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+        margin-left: 15px;
+        margin-top: 50px;
+}
+
+.amout div {
+
+        width: 100px;
+        text-align: center;
+}
+
+.item {
+        height: 250px;
+        border: 1px solid black;
+        margin-top: 50px;
+        overflow: auto;
+        border-radius: 20px;
+
+}
+
+.addmain {
+        display: none;
+}
+
+.add {
+        margin-top: 20px;
+        border: 1px solid black;
+        height: 150px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        border-radius: 10px;
+
+
+
+}
+
+.add input,
+button {
+        width: 50%;
+        height: 30px;
+        margin: auto;
+        border-radius: 5px;
+        border: 1px solid black;
+        text-align: center;
+}
+
+.removemain {
+        display: none;
+}
+
+.remove {
+        margin-top: 20px;
+        border: 1px solid black;
+        height: 150px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        border-radius: 10px;
+
+}
+
+.remove input,
+button {
+        width: 50%;
+        height: 30px;
+        margin: auto;
+        border-radius: 5px;
+        border: 1px solid black;
+        text-align: center;
+}
+
+.items {
+        border-bottom: 1px solid black;
+
+
+
+        height: 30px;
+        line-height: 30px;
+
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+}
+
+.income {
+        background-color: blue;
+        color: white;
+}
+
+.use {
+        background-color: red;
+}
+
+.total {
+        background-color: dimgrey;
+}
+
+.btn {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-between;
+}
+
+.btn button {
+        width: 100px;
+}
+
+.btn1 {
+        background-color: blue;
+        color: white;
+}
+
+.btn2 {
+        background-color: red;
+
+}
